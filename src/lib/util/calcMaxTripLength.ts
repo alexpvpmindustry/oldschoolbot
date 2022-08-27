@@ -10,9 +10,8 @@ import { skillLevel } from './minionUtils';
 
 export function calcMaxTripLength(user: User | KlasaUser, activity?: activity_type_enum) {
 	let max = Time.Minute * 3000;
-
 	max += patronMaxTripCalc(user);
-
+	print(activity);
 	switch (activity) {
 		case 'Nightmare':
 		case 'GroupMonsterKilling':
