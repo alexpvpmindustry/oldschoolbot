@@ -9,7 +9,7 @@ export const gracefulOutfitCreatables: Createable[] = [
 	{
 		name: 'Graceful',
 		inputItems: {
-			[itemID('Mark of grace')]: 260
+			[itemID('Mark of grace')]: 2
 		},
 		outputItems: {
 			[itemID('Graceful hood')]: 1,
@@ -23,7 +23,7 @@ export const gracefulOutfitCreatables: Createable[] = [
 	{
 		name: 'Graceful hood',
 		inputItems: {
-			[itemID('Mark of grace')]: 35
+			[itemID('Mark of grace')]: 2
 		},
 		outputItems: {
 			[itemID('Graceful hood')]: 1
@@ -32,7 +32,7 @@ export const gracefulOutfitCreatables: Createable[] = [
 	{
 		name: 'Graceful top',
 		inputItems: {
-			[itemID('Mark of grace')]: 55
+			[itemID('Mark of grace')]: 2
 		},
 		outputItems: {
 			[itemID('Graceful top')]: 1
