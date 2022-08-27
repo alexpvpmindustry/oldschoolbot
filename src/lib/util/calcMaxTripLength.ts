@@ -9,7 +9,7 @@ import getUsersPerkTier, { patronMaxTripCalc } from './getUsersPerkTier';
 import { skillLevel } from './minionUtils';
 
 export function calcMaxTripLength(user: User | KlasaUser, activity?: activity_type_enum) {
-	let max = Time.Minute * 300;
+	let max = Time.Minute * 3000;
 
 	max += patronMaxTripCalc(user);
 
