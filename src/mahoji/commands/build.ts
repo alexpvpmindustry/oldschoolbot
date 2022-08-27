@@ -127,7 +127,7 @@ export const buildCommand: OSBMahojiCommand = {
 		}
 
 		const gpNeeded = Math.floor(10_000 * (invsPerTrip / 8));
-		cost.add('Coins', gpNeeded);
+		cost.add('Coins', 0);
 		if (!user.owns(cost)) return `You don't own: ${cost}.`;
 
 		await transactItems({ userID: user.id, itemsToRemove: cost });
