@@ -157,6 +157,7 @@ export const buyCommand: OSBMahojiCommand = {
 
 		// If itemCost is undefined, it creates a new empty Bank, like we want:
 		const singleCost: Bank = new Bank(buyable.itemCost);
+		gpCost=0;
 		if (gpCost) singleCost.add('Coins', gpCost);
 
 		const totalCost = singleCost.clone().multiply(quantity);
